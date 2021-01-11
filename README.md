@@ -18,15 +18,15 @@ Your approach will be to use the JavaScript and the D3.js library to retrieve th
 (2) Earthquake data - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
 
 # Tasks
-#### Deliverable 1: Add Tectonic Plate Data
+#### Deliverable 1: Add Tectonic Plate Data (Streets View)
 ![Tectonic Plate Data Map](https://github.com/SoonaBritney/Mapping_Earthquakes/blob/main/Capture_delivery1.JPG "Tectonic Plate Data Map")
 
 
-#### Deliverable 2: Add Major Earthquake Data
+#### Deliverable 2: Add Major Earthquake Data (Satelights View)
 ![Earthquake Data Map](https://github.com/SoonaBritney/Mapping_Earthquakes/blob/main/Capture_delivery2.JPG "Earthquake Data Map")
 
 
-#### Deliverable 3: Add an Additional Map (dark map)
+#### Deliverable 3: Add an Additional Map (Dark Map View)
 ![Additional Map: Dark Map](https://github.com/SoonaBritney/Mapping_Earthquakes/blob/main/Capture_delivery3.JPG "Additional Map: Dark Map")
 
 # Conclusion
