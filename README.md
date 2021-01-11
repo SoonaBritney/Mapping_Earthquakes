@@ -33,4 +33,4 @@ Your approach will be to use the JavaScript and the D3.js library to retrieve th
 We can visualize the JSON data on the map by utilizing the Mapbox Mapping JavaScript libruary and Leaflet Mapping JavaScript libruary.
 
 # Demo
-[Mapping Earthquake Demo](https://www.google.com)
+[Soona's Mapping Earthquake Demo](https://soonabritney.github.io/Mapping_Earthquakes/Earthquake_Challenge/index.html)
