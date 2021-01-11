@@ -16,6 +16,7 @@ Your approach will be to use the JavaScript and the D3.js library to retrieve th
 (1) Tectonic plate data - https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
 (2) Earthquake data - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
 
+
 # Tasks
 #### Deliverable 1: Add Tectonic Plate Data (Streets View)
 ![Tectonic Plate Data Map](https://github.com/SoonaBritney/Mapping_Earthquakes/blob/main/Capture_delivery1.JPG "Tectonic Plate Data Map")
