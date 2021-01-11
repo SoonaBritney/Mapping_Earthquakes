@@ -22,7 +22,7 @@ Your approach will be to use the JavaScript and the D3.js library to retrieve th
 ![Tectonic Plate Data Map](https://github.com/SoonaBritney/Mapping_Earthquakes/blob/main/Capture_delivery1.JPG "Tectonic Plate Data Map")
 
 
-#### Deliverable 2: Add Major Earthquake Data (Satelights View)
+#### Deliverable 2: Add Major Earthquake Data (Satelite View)
 ![Earthquake Data Map](https://github.com/SoonaBritney/Mapping_Earthquakes/blob/main/Capture_delivery2.JPG "Earthquake Data Map")
 
 
