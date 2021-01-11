@@ -5,12 +5,23 @@
 The purpose of this project is to visually show the earthquake data in relation to the tectonic plates’ location on the earth, and which shows all the earthquakes with a magnitude greater than 4.5 on the map, and the data on a third map.
 
 # Technology
-Mapbox Mapping JavaScript libruaryLeaflet Mapping JavaScript libruaryJSON
+(1) Mapbox Mapping 
+(2) JavaScript libruary
+(3) Leaflet Mapping JavaScript libruary
+(4) JSON
 
 # Approach
 Your approach will be to use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. You'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.Now that you have an overview of the project plan, let's set up a Mapbox account and get the API token you'll need to create geographical maps.
 
+# JSon Data
+(1) Tectonic plate data - https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+(2) Earthquake data - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+
 # Tasks
-### Deliverable 1: Add Tectonic Plate Data
-### Deliverable 2: Add Major Earthquake Data
-### Deliverable 3: Add an Additional Map
+#### Deliverable 1: Add Tectonic Plate Data
+
+
+#### Deliverable 2: Add Major Earthquake Data
+
+
+#### Deliverable 3: Add an Additional Map (dark map)
