@@ -144,7 +144,7 @@ style: styleInfo,
 earthquakes.addTo(map);
 
   // start with major earthquake map
-  d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson).then(function(data") {
+  d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson").then(function(data) {
   
   L.geoJson(data, {
   // We turn each feature into a circleMarker on the map.
