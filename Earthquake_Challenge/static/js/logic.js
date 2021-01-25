@@ -50,7 +50,8 @@ let MultiEarthquakes = new L.LayerGroup();
 let overlays = {
     Earthquakes: earthquakes,
     // I am adding Teletonic layer here
-    Tectonic: tectonic
+    Tectonic: tectonic,
+    MultiEarthquakes: MultiEarthquakes
   };
 
 // Then we add a control to the map that will allow the user to change
@@ -163,7 +164,7 @@ earthquakes.addTo(map);
 
 MultiEarthquakes.addTo(map);
 
-
+  });
   // end of major earthquake map
   
   // 9. Close the braces and parentheses for the major earthquake data.
