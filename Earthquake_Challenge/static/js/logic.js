@@ -141,8 +141,30 @@ style: styleInfo,
 }
 }).addTo(earthquakes);
 
-  // 8. Add the major earthquakes layer to the map.
-  earthquakes.addTo(map);
+earthquakes.addTo(map);
+
+  // start with major earthquake map
+  d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson).then(function(data") {
+  
+  L.geoJson(data, {
+  // We turn each feature into a circleMarker on the map.
+  pointToLayer: function(feature, latlng) {
+      console.log(data);
+      return L.circleMarker(latlng);
+    },
+  // We set the style for each circleMarker using our styleInfo function.
+  style: styleInfo,
+  // We create a popup for each circleMarker to display the magnitude and
+  // location of the earthquake after the marker has been created and styled.
+  onEachFeature: function(feature, layer) {
+  layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
+}
+}).addTo(MultiEarthquakes);
+
+MultiEarthquakes.addTo(map);
+
+
+  // end of major earthquake map
   
   // 9. Close the braces and parentheses for the major earthquake data.
   
@@ -174,7 +196,7 @@ style: styleInfo,
       }
       return div;
   };
-   // Finally, we our legend to the map.
+   // Finally, we add our legend to the map.
   legend.addTo(map);
 });
 });
